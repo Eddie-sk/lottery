@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "vue-input-filter": "^1.1.3"
+  }
+}
