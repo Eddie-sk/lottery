@@ -28,9 +28,6 @@
 		onLoad() {
 
 		},
-		methods: {
-
-		},
 		components: {
 			TabBar,
 			TabBarItem
