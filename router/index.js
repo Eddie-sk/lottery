@@ -13,8 +13,10 @@ const routes = [
 		component: Transport
 	}
 ]
-
-export const router = createRouter({
-	history: createWebHistory(),
-	routes
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+  mode: 'history'
 })
+
+export { router }
