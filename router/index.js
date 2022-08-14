@@ -5,6 +5,10 @@ const Transport = () => import('../pages/transport/transport')
 
 const routes = [
 	{
+		path: '',
+		redirect: '/lottery'
+	},
+	{
 		path: '/lottery',
 		component: Lottery
 	},

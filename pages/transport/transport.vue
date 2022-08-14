@@ -1,19 +1,18 @@
 <template>
 	<view class="page">
-		<h2>h2</h2>
-		<!-- <h3>数字转中文大写</h3>
+		<h3>数字转中文大写</h3>
 		<view class="num-area">
 			<h3>数字转中文大写</h3>
-			<input v-model="input_num" type="number" id="num_input" v-input-filter:price/>
+			<input v-model="input_num" type="number" id="num_input" input-filter:price/>
 			<button v-on:click="transport">转换</button>
 		</view>
 		<view class="result-title">中文大写:</view>
-		<textarea class="result" rows="3" v-model="result" disabled></textarea> -->
+		<textarea class="result" rows="3" v-model="result" disabled></textarea>
 	</view>
 </template>
 <script>
 	
-	// import { inputFilter } from 'vue-input-filter'
+	import { inputFilter } from 'vue-input-filter'
 	
 	export default {
 		data() {
@@ -23,7 +22,7 @@
 			}
 		},
 		directives: {
-			// inputFilter
+			inputFilter
 		},
 		methods: {
 			digitUppercase() {

@@ -3,14 +3,14 @@
 		<router-view></router-view>
 		<tab-bar>
 			<tab-bar-item path="/lottery">
-				<img slot="item-icon" src="../../assets/images/ic_tab_lottery_normal.png" alt="">
-				<img slot="item-icon-active" src="../../assets/images/ic_tab_lottery_selected.png" alt="">
-				<div slot="item-text" >抽签</div>
+				<div><img slot="icon" src="../../assets/images/ic_tab_lottery_normal.png"></div>
+				<div><img slot="activeicon" src="../../assets/images/ic_tab_lottery_selected.png"></div>
+				<div><div slot="text" >抽签</div></div>
 			</tab-bar-item>
 			<tab-bar-item path="/transport">
-				<img slot="item-icon" src="../../assets/images/ic_tab_money_money.png" alt="">
-				<img slot="item-icon-active" src="../../assets/images/ic_tab_money_selected.png" alt="">
-				<div slot="item-text" >金额转换</div>
+				<div><img slot="icon" src="../../assets/images/ic_tab_money_money.png"></div>
+				<div><img slot="activeicon" src="../../assets/images/ic_tab_money_selected.png"></div>
+				<div slot="text" >金额转换</div>
 			</tab-bar-item>
 		</tab-bar>
 	</div>
