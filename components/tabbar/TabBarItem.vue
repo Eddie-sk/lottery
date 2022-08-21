@@ -1,8 +1,8 @@
 <template>
 	<div class="tab-bar-item" @click="itemClick">
-		<div v-if="!isActive"><slot name="item-icon"></slot></div>
-		<div v-else><slot name="activeicon"></slot></div>
-		<div :class="{active: isActive}"><slot name="text"></slot></div>
+		<div v-if="!isActive" class="img-wrapper"><slot name="item-icon"></slot></div>
+		<div v-else class="img-wrapper"><slot name="item-icon-active"></slot></div>
+		<div :style="activStyle"><slot name="item-text"></slot></div>
 	</div>
 </template>
 
@@ -11,6 +11,10 @@
 		name: "TabBarItem",
 		props: {
 			path: String,
+			activeColor: {
+				type: String,
+				default: '#1296db'
+			}
 		},
 		data() {
 			return {
@@ -20,6 +24,9 @@
 		computed: {
 			isActive() {
 				return this.$route.path.indexOf(this.path) != -1
+			},
+			activStyle() {
+				return this.isActive ? {color: this.activeColor} : {}
 			}
 		},
 		methods: {
@@ -33,18 +40,17 @@
 
 <style>
 	.tab-bar-item {
+		text-align: center;
 		flex: 1;
 		height: 49px;
-		text-align: center;
 		font-size: 14px;
 	}
-	.tab-bar-item item-icon {
+	.img-wrapper {
+		display: inline-block;
+		text-align: center;
 		width: 24px;
 		height: 24px;
 		margin-top: 3px;
 		vertical-align: middle;
-	}
-	.active {
-		color: red;
 	}
 </style>

@@ -8,6 +8,7 @@
     "urlCheck": false,
     "es6": true,
     "postcss": true,
+    "ignoreUploadUnusedFiles": true,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],

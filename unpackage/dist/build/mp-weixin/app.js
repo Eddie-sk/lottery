@@ -1,4 +1,1 @@
-
-require('./common/runtime.js')
-require('./common/vendor.js')
-require('./common/main.js')
+"use strict";var o=require("./common/vendor.js");Math;const n={onLaunch:function(){console.log("App Launch")},onShow:function(){console.log("App Show")},onHide:function(){console.log("App Hide")}};o.createApp(n).mount("#app");

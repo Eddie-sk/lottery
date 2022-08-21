@@ -19,8 +19,9 @@ const routes = [
 ]
 const router = createRouter({
   history: createWebHistory(),
+  base: '/',
   routes,
-  mode: 'history'
+  mode: 'hash'
 })
 
 export { router }

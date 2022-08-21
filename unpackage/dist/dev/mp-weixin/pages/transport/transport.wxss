@@ -1,0 +1,26 @@
+
+.page {
+	padding: 16rpx;
+}
+.num-area {
+	display: flex;
+	margin-top: 10rpx;
+}
+.num-area input {
+	border: 1rpx solid darkgray;
+	border-radius: 5rpx;
+}
+.num-area button {
+	height: 50rpx;
+	line-height: 50rpx;
+	font-size: 16px;
+}
+.result-title {
+	margin-top: 50rpx;
+	font-size: 14px;
+}
+.result {
+	width: 100%;
+	background-color: beige;
+	border: 1rpx solid lightgrey;
+}
