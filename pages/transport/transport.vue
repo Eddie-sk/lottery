@@ -1,14 +1,14 @@
 <template>
-	<view class="page">
-		<h3>数字转中文大写</h3>
+		<h3>金额转中文大写</h3>
 		<view class="num-area">
-			<h3>数字转中文大写</h3>
+			<p>请输入数字金额：</p>
 			<input v-model="input_num" type="number" id="num_input" input-filter:price/>
-			<button v-on:click="transport">转换</button>
 		</view>
+		<div class="transport-btn">
+			<button style="width: 100px;" @click="transport">转换</button>
+		</div>
 		<view class="result-title">中文大写:</view>
 		<textarea class="result" rows="3" v-model="result" disabled></textarea>
-	</view>
 </template>
 <script>
 	
@@ -132,14 +132,17 @@
 	padding: 16rpx;
 }
 .num-area {
-	display: flex;
+	height: 100px;
 	margin-top: 10rpx;
+	background-color: antiquewhite;
 }
 .num-area input {
 	border: 1rpx solid darkgray;
 	border-radius: 5rpx;
 }
-.num-area button {
+button {
+	
+	display: inline-block;
 	height: 50rpx;
 	line-height: 50rpx;
 	font-size: 16px;

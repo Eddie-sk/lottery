@@ -15,7 +15,7 @@
     "list": [
       {
         "pagePath": "pages/lottery/lottery",
-        "text": "抽签",
+        "text": "抽奖",
         "iconPath": "/assets/images/ic_tab_lottery_normal.png",
         "selectedIconPath": "/assets/images/ic_tab_lottery_selected.png"
       },

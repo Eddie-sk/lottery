@@ -13,7 +13,7 @@
 		</div>
 		<h2>中奖名单(已中奖：{{winnersCount}}人)</h2>
 		<div class="winner-area" style="background-color: aquamarine;">
-			<div>这里显示中奖用户：</div>
+			<div>中奖人员名单：</div>
 			<textarea v-model="lotteryUsers" disabled></textarea>
 		</div>
 	</div>

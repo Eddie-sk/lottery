@@ -15,6 +15,6 @@ const _sfc_main = {
     console.log("App Hide");
   }
 };
-var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "/Users/eddie/study/Vue/projects/lottery1/App.vue"]]);
+var App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "/Users/sunkai/work/lottery/App.vue"]]);
 const app = common_vendor.createApp(App);
 app.mount("#app");

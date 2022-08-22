@@ -1,27 +1,33 @@
 {
   "description": "项目配置文件。",
   "packOptions": {
-    "ignore": [],
-    "include": []
+    "ignore": []
   },
   "setting": {
     "urlCheck": false,
     "es6": true,
-    "postcss": true,
-    "ignoreUploadUnusedFiles": true,
-    "babelSetting": {
-      "ignore": [],
-      "disablePlugins": [],
-      "outputPath": ""
-    }
+    "postcss": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.25.2",
+  "libVersion": "",
   "appid": "wx22b9fd55dff8129b",
   "projectname": "lottery1",
-  "condition": {},
-  "editorSetting": {
-    "tabIndent": "insertSpaces",
-    "tabSize": 2
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": []
+    }
   }
 }

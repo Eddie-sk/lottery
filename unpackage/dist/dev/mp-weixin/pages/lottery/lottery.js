@@ -68,5 +68,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     i: common_vendor.o(($event) => $data.lotteryUsers = $event.detail.value)
   };
 }
-var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/eddie/study/Vue/projects/lottery1/pages/lottery/lottery.vue"]]);
+var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "/Users/sunkai/work/lottery/pages/lottery/lottery.vue"]]);
 wx.createPage(MiniProgramPage);
